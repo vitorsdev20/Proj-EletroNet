@@ -54,7 +54,7 @@ li a:hover,
 
 li a {
     padding: .5em .8em;
-    color: rgba(255, 255, 255, .5);
+    color: rgb(8, 156, 201);
     position: relative;
     text-decoration: none;
     font-size: 20px;
