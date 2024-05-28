@@ -52,6 +52,52 @@ li a:hover,
     background-color: rgb(8, 156, 201);
 }
 
+li a {
+    padding: .5em .8em;
+    color: rgb(8, 156, 201);
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+li a::before,
+li a::after {
+    content: '';
+    height: 14px;
+    width: 14px;
+    position: absolute;
+    transition: all .35s ease;
+    opacity: 0;
+}
+
+li a::before {
+    content: '';
+    right: 0;
+    top: 0;
+    border-top: 3px solid #21d2e9;
+    border-right: 3px solid #21d2e9;
+    transform: translate(-100%, 50%);
+}
+
+li a:after {
+    content: '';
+    left: 0;
+    bottom: 0;
+    border-bottom: 3px solid #21d2e9;
+    border-left: 3px solid #21d2e9;
+    transform: translate(100%, -50%)
+}
+
+li a:hover:before,
+li a:hover:after {
+    transform: translate(0, 0);
+    opacity: 1;
+}
+
+li a:hover {
+    color: #ffffff;
+}
+
 li.dropdown {
     display: inline-block;
 }
