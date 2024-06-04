@@ -228,6 +228,8 @@
     }
   }
   /* Header */
+
+
   /* Footer */
 
   footer {
@@ -407,6 +409,9 @@ ul {
     font-size: 2vh;
     text-decoration: none;
   }
+  .links a:hover{
+    color: #405de6;
+  }
 
 
   .categorias{
@@ -427,6 +432,9 @@ ul {
     font-size: 2vh;
     text-decoration: none;
   }
+  .categorias a:hover{
+    color: #405de6;
+  }
   .verifique{
     width: 20%;
     position: relative;
@@ -445,7 +453,9 @@ ul {
     font-size: 2vh;
     text-decoration: none;
   }
-  
+  .verifique a:hover{
+    color: #405de6;
+  }
 
 
   /* Footer */
@@ -515,5 +525,19 @@ ul {
     }
     .card {
         margin-top: 5vh;
+    }
+    footer{
+      display: flex;
+      flex-direction: column;
+      height: auto;
+      text-align: center;
+      align-items: center;
+    }
+    footer img{
+      left: 0;
+    }
+    .horario{
+      text-align: center;
+      margin-left: 2.9vh;
     }
   }
