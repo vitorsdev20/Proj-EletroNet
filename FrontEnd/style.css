@@ -1,26 +1,10 @@
 * {
-  box-sizing: border-box;
+margin: 0;
+padding: 0;
 }
-
-body {
-  margin: 0;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 300;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background-color: rgb(8, 156, 201);
-}
-
 
 /* Carrossel*/
-
 * {box-sizing:border-box}
-
 
 .mySlides fade{
   width: 100%;
@@ -63,11 +47,10 @@ header {
 }
 
 .text {
-  color: #f2f2f2;
+  color: #000000;
   font-size: 15px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
   width: 100%;
   text-align: center;
 }
@@ -108,71 +91,7 @@ header {
 
 
 
-/* 3 - Cards Anuncio*/
-.column {
-    float: left;
-    width: 25%;
-    padding: 0 10px;
-  }
-.row {
-    padding-top: 40px;
-    padding-bottom: 40px;
-    margin: 0 -5px;
-    display: flex;
-    justify-content: space-around;
-}
-.row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-@media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }
-  }
 
-.card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 16px;
-    text-align: center;
-    background-color: #f1f1f1;
-  }
 
-/*Cards de Venda*/
 
-.cardVenda{
-    display: flex;
-    justify-content: space-between;
-}
 
-.cardsProduto {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    max-width: 300px;
-    margin: auto;
-    text-align: center;
-  }
-  
-.price {
-    color: grey;
-    font-size: 22px;
-  }
-  
-.cardsProduto button {
-    border: none;
-    outline: 0;
-    padding: 12px;
-    color: white;
-    background-color: #000;
-    text-align: center;
-    cursor: pointer;
-    width: 100%;
-    font-size: 18px;
-  }
-  
-.cardsProduto button:hover {
-    opacity: 0.7;
-  }
