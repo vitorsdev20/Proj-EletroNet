@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    background-color: #0787EA;
+    height: 1000px;
+}
+/* .grid-container{
+    
+} */
+.card{
+    color: #0787EA;
+    text-align: center;
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    font-size: 7px;
+}
+.card p{
+    font-size: 25px;
+}
+
+.card img{
+    width: 150px;
+}
